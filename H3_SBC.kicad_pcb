@@ -941,7 +941,7 @@
 	(footprint "H3:BGA347_H3_AWT"
 		(layer "F.Cu")
 		(uuid "0823aec2-00ff-4d85-9c8e-04b8a1496fcc")
-		(at 175.921601 84.784)
+		(at 175.9192 85.322)
 		(tags "H3 ")
 		(property "Reference" "U1"
 			(at 0 0 0)
