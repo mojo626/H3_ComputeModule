@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 44.45 12.7 0)
+			(property "Reference" "U1"
+				(at 22.86 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -21,7 +21,7 @@
 				)
 			)
 			(property "Value" "H3"
-				(at 44.45 10.16 0)
+				(at 22.86 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -54,7 +54,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -979,7 +978,7 @@
 					)
 				)
 				(pin output line
-					(at 66.04 -17.78 180)
+					(at 66.04 -5.08 180)
 					(length 7.62)
 					(name "TVOUT"
 						(effects
@@ -997,7 +996,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 66.04 -22.86 180)
+					(at 66.04 -13.97 180)
+					(length 7.62)
+					(name "X24MIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 66.04 -16.51 180)
 					(length 7.62)
 					(name "X24MOUT"
 						(effects
@@ -1015,7 +1032,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 66.04 -27.94 180)
+					(at 66.04 -25.4 180)
 					(length 7.62)
 					(name "X32KFOUT"
 						(effects
@@ -1025,6 +1042,24 @@
 						)
 					)
 					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 66.04 -27.94 180)
+					(length 7.62)
+					(name "X32KIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2227,42 +2262,6 @@
 						)
 					)
 					(number "V4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -53.34 180)
-					(length 7.62)
-					(name "X24MIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -58.42 180)
-					(length 7.62)
-					(name "X32KIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "V5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16143,7 +16142,7 @@
 		(dnp no)
 		(uuid "a977ce6b-ee39-44ad-b23d-670bf2c7df61")
 		(property "Reference" "U1"
-			(at 233.68 33.655 0)
+			(at 223.52 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16151,7 +16150,7 @@
 			)
 		)
 		(property "Value" "H3"
-			(at 233.68 36.195 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17228,7 +17227,11 @@
 			(uuid "92bd457b-e183-4a90-987a-e0531ef94d55")
 		)
 		(instances
-			(project "H3_SBC"
+			(project ""
+				(path "/2511caf5-b791-49bc-bcf7-734707cf883b"
+					(reference "U1")
+					(unit 8)
+				)
 				(path "/2511caf5-b791-49bc-bcf7-734707cf883b/7c195a19-3b4b-4cd4-badd-fe195946fa30"
 					(reference "U1")
 					(unit 8)
