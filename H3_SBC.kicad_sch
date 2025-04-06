@@ -18345,7 +18345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 87.63 0)
 			(effects
 				(font
@@ -18414,7 +18414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 141.2748 96.52 0)
 			(effects
 				(font
@@ -18548,7 +18548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 155.9052 113.03 0)
 			(effects
 				(font
@@ -18616,7 +18616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 312.1152 175.26 0)
 			(effects
 				(font
@@ -18682,7 +18682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -18758,7 +18758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 133.858 90)
 			(effects
 				(font
@@ -18825,7 +18825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 80.518 90)
 			(effects
 				(font
@@ -19025,7 +19025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 333.7052 175.26 0)
 			(effects
 				(font
@@ -19158,7 +19158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 318.4652 175.26 0)
 			(effects
 				(font
@@ -19225,7 +19225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA347_H3_AWT"
+		(property "Footprint" ""
 			(at 250.19 113.03 0)
 			(effects
 				(font
@@ -20328,7 +20328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 62.738 90)
 			(effects
 				(font
@@ -20460,7 +20460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 241.3 60.96 0)
 			(effects
 				(font
@@ -20538,7 +20538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA347_H3_AWT"
+		(property "Footprint" ""
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -21641,7 +21641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 71.628 90)
 			(effects
 				(font
@@ -21709,7 +21709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA347_H3_AWT"
+		(property "Footprint" ""
 			(at 306.07 48.26 0)
 			(effects
 				(font
@@ -22815,7 +22815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.8752 113.03 0)
 			(effects
 				(font
@@ -22883,7 +22883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 305.7652 175.26 0)
 			(effects
 				(font
@@ -22949,7 +22949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.342 171.45 90)
 			(effects
 				(font
@@ -23016,7 +23016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 241.3 69.85 0)
 			(effects
 				(font
@@ -23258,7 +23258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 93.218 90)
 			(effects
 				(font
