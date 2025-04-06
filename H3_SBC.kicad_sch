@@ -14818,10 +14818,6 @@
 		(uuid "1f492f8e-ecfc-4d0a-890f-c9706cfeb919")
 	)
 	(no_connect
-		(at 250.19 179.07)
-		(uuid "22908e05-3124-45fe-8c28-0f75f851ec41")
-	)
-	(no_connect
 		(at 250.19 196.85)
 		(uuid "246ec548-e3a8-4b6b-a948-a2911d22bc8a")
 	)
@@ -14832,10 +14828,6 @@
 	(no_connect
 		(at 250.19 113.03)
 		(uuid "330c86a2-d850-406a-ba22-1061ddcba332")
-	)
-	(no_connect
-		(at 250.19 181.61)
-		(uuid "34f0a753-b282-4be8-94e8-bde7004b6018")
 	)
 	(no_connect
 		(at 68.58 96.52)
@@ -14874,20 +14866,12 @@
 		(uuid "5c25c5bc-6a0a-4c8f-8bec-cf3bc34abdc2")
 	)
 	(no_connect
-		(at 250.19 176.53)
-		(uuid "6505975f-e107-452c-9484-2cf76eabb3bc")
-	)
-	(no_connect
 		(at 250.19 194.31)
 		(uuid "6683fa2f-867e-40cc-93c6-f9ce97120931")
 	)
 	(no_connect
 		(at 250.19 118.11)
 		(uuid "66c79c5e-8f97-46de-97fa-c6c44f2467ee")
-	)
-	(no_connect
-		(at 295.91 146.05)
-		(uuid "7a3992b7-c9ae-45b5-88f1-5038b6be7bdc")
 	)
 	(no_connect
 		(at 250.19 115.57)
@@ -15206,6 +15190,16 @@
 			(type default)
 		)
 		(uuid "317c1e6d-89e6-41fc-be1d-9647d67dfe88")
+	)
+	(wire
+		(pts
+			(xy 295.91 146.05) (xy 302.26 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32084d8e-d7e4-46e5-83a0-b218ee3aeb4c")
 	)
 	(wire
 		(pts
@@ -15839,6 +15833,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 179.07) (xy 250.19 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28b3743-10c6-4b4c-8409-1f7fc992e358")
+	)
+	(wire
+		(pts
 			(xy 304.8 161.29) (xy 304.8 167.64)
 		)
 		(stroke
@@ -16139,6 +16143,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 176.53) (xy 250.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce112ae2-6b4a-4229-b90b-7a731d5e7b9c")
+	)
+	(wire
+		(pts
 			(xy 241.3 171.45) (xy 250.19 171.45)
 		)
 		(stroke
@@ -16269,6 +16283,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 181.61) (xy 250.19 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36fea5f-a428-40dd-8694-f52fe814eafd")
+	)
+	(wire
+		(pts
 			(xy 241.3 158.75) (xy 250.19 158.75)
 		)
 		(stroke
@@ -16356,6 +16380,28 @@
 			(type default)
 		)
 		(uuid "feeed356-0e97-4350-ad3c-76ee60c09487")
+	)
+	(global_label "PG11"
+		(shape input)
+		(at 302.26 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "000c2d6e-dc67-4c7e-afbc-8a1758d3ab5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.2042 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HSCL"
 		(shape input)
@@ -16881,6 +16927,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AXP_SDA"
+		(shape bidirectional)
+		(at 241.3 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50754ad1-8e76-459d-b39e-b71d99c1b15d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0997 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -17633,6 +17701,28 @@
 			)
 		)
 	)
+	(global_label "AXP_IRQ"
+		(shape bidirectional)
+		(at 241.3 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf2b6a53-041d-471d-a68d-3f38539eb5b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.4625 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STATLED_DISK"
 		(shape input)
 		(at 241.3 199.39 180)
@@ -17717,6 +17807,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AXP_SCL"
+		(shape bidirectional)
+		(at 241.3 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb452ee4-fd75-46e0-ad46-26ab6bacbac6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.1602 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

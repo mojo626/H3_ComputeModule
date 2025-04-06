@@ -9194,16 +9194,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 246.38) (xy 135.89 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be39042-0991-41d5-b80b-9b2d843a5ffa")
-	)
-	(wire
-		(pts
 			(xy 156.21 198.12) (xy 161.29 198.12)
 		)
 		(stroke
@@ -9381,6 +9371,16 @@
 			(type default)
 		)
 		(uuid "2ae3e77b-046f-426a-b714-e09d5f422e3b")
+	)
+	(wire
+		(pts
+			(xy 129.54 246.38) (xy 135.89 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6744d0-de44-48ca-9489-0fb16a00df3e")
 	)
 	(wire
 		(pts
@@ -12135,6 +12135,28 @@
 		(uuid "74b748e0-d304-47c9-8bbc-37edc3c71380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.9967 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PG11"
+		(shape input)
+		(at 129.54 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76c44cc7-4421-4027-8069-b2af8ca3514b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.5958 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21947,72 +21969,6 @@
 			(project "H3_SBC"
 				(path "/2511caf5-b791-49bc-bcf7-734707cf883b/820235b6-3e55-4f19-988b-04cbfedf3fbe"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 246.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c72d5def-9923-4be9-b0fe-236458175ab3")
-		(property "Reference" "#PWR078"
-			(at 127 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.175 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "309bf99f-8c08-430b-bce9-dca3ed31f8aa")
-		)
-		(instances
-			(project "H3_SBC"
-				(path "/2511caf5-b791-49bc-bcf7-734707cf883b/820235b6-3e55-4f19-988b-04cbfedf3fbe"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
