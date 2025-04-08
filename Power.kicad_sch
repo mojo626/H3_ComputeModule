@@ -40489,7 +40489,7 @@
 		(dnp no)
 		(uuid "715cc382-e21b-4288-8454-60cccff9222d")
 		(property "Reference" "C14"
-			(at 169.545 131.445 0)
+			(at 168.402 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41666,7 +41666,7 @@
 		(dnp no)
 		(uuid "76be820d-9f17-4373-8b32-8fc323a7c3c5")
 		(property "Reference" "C64"
-			(at 180.975 131.445 0)
+			(at 179.832 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46272,7 +46272,7 @@
 		(dnp no)
 		(uuid "e843ba15-5a1f-40fd-be08-afe1847a95aa")
 		(property "Reference" "C65"
-			(at 187.325 131.445 0)
+			(at 186.436 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
