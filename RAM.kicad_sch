@@ -16856,7 +16856,7 @@
 		)
 		(uuid "00756b36-99a9-49ef-a555-48128c3c4208")
 	)
-	(label "SDQS2_P"
+	(label "SDQS2+"
 		(at 353.06 90.17 0)
 		(effects
 			(font
@@ -16876,7 +16876,7 @@
 		)
 		(uuid "04ad6c61-eeb1-43a3-9735-7230d3face86")
 	)
-	(label "SDQS3_N"
+	(label "SDQS3-"
 		(at 114.3 168.91 0)
 		(effects
 			(font
@@ -16886,7 +16886,7 @@
 		)
 		(uuid "058ccd1c-3487-4c25-b92e-c18dbba89f71")
 	)
-	(label "SDQS1_N"
+	(label "SDQS2-"
 		(at 114.3 163.83 0)
 		(effects
 			(font
@@ -16916,7 +16916,7 @@
 		)
 		(uuid "080e68b6-ff2b-4c6c-bcdf-c986b313c8e2")
 	)
-	(label "SDQS1_P"
+	(label "SDQS1+"
 		(at 224.79 91.44 0)
 		(effects
 			(font
@@ -16956,7 +16956,7 @@
 		)
 		(uuid "0f478977-4519-4919-8261-dd743a86604a")
 	)
-	(label "SDQS1_P"
+	(label "SDQS1+"
 		(at 114.3 156.21 0)
 		(effects
 			(font
@@ -17025,6 +17025,17 @@
 			(justify left bottom)
 		)
 		(uuid "1af08a4d-ff47-4782-9bad-87ef16cd42dd")
+		(property "Netclass" "DDR0_DQL"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SDQ29"
 		(at 346.71 69.85 0)
@@ -17046,7 +17057,7 @@
 		)
 		(uuid "1d825526-d4cc-4a3b-b9c1-7c9d03e434ba")
 	)
-	(label "SDQS1_N"
+	(label "SDQS2-"
 		(at 353.06 92.71 0)
 		(effects
 			(font
@@ -17166,7 +17177,7 @@
 		)
 		(uuid "35ad901a-3b5c-4e3d-8c83-688db78fb0e8")
 	)
-	(label "SDQS0_P"
+	(label "SDQS0+"
 		(at 114.3 151.13 0)
 		(effects
 			(font
@@ -17216,7 +17227,7 @@
 		)
 		(uuid "3bae5a24-d3c5-4cfc-bd32-ecb6ac9efdd1")
 	)
-	(label "SDQS3_P"
+	(label "SDQS3+"
 		(at 353.06 95.25 0)
 		(effects
 			(font
@@ -17286,7 +17297,7 @@
 		)
 		(uuid "45a7fb8e-fcde-4b7d-961d-15a1dc9b9202")
 	)
-	(label "SDQS2_P"
+	(label "SDQS2+"
 		(at 114.3 161.29 0)
 		(effects
 			(font
@@ -17426,7 +17437,7 @@
 		)
 		(uuid "590c4c7e-3645-42e1-929d-6cd80c18c4eb")
 	)
-	(label "SDQS3_N"
+	(label "SDQS3-"
 		(at 353.06 97.79 0)
 		(effects
 			(font
@@ -17686,7 +17697,7 @@
 		)
 		(uuid "7dc89f6e-9b5b-4b94-b4fa-efbe9b29d967")
 	)
-	(label "SDQS1_N"
+	(label "SDQS1-"
 		(at 114.3 158.75 0)
 		(effects
 			(font
@@ -17896,7 +17907,7 @@
 		)
 		(uuid "97fedfc9-8b5e-469c-a5e7-ec4d58d82e14")
 	)
-	(label "SDQS0_P"
+	(label "SDQS0+"
 		(at 224.79 86.36 0)
 		(effects
 			(font
@@ -18126,7 +18137,7 @@
 		)
 		(uuid "aee51184-45fd-4ab6-8c19-ff9ae508cbba")
 	)
-	(label "SDQS1_N"
+	(label "SDQS1-"
 		(at 224.79 93.98 0)
 		(effects
 			(font
@@ -18186,7 +18197,7 @@
 		)
 		(uuid "b6df80bf-c19b-4af8-9741-2a7f76a3cf49")
 	)
-	(label "SDQS3_P"
+	(label "SDQS3+"
 		(at 114.3 166.37 0)
 		(effects
 			(font
@@ -18386,7 +18397,7 @@
 		)
 		(uuid "dccc0ade-427e-4162-b7ad-41357b22adc5")
 	)
-	(label "SDQS0_N"
+	(label "SDQS0-"
 		(at 114.3 153.67 0)
 		(effects
 			(font
@@ -18486,7 +18497,7 @@
 		)
 		(uuid "e7904bf5-82e3-4aa5-901a-36645f009256")
 	)
-	(label "SDQS0_N"
+	(label "SDQS0-"
 		(at 224.79 88.9 0)
 		(effects
 			(font
@@ -18897,6 +18908,52 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 189.23 34.29) (xy 189.23 74.93) (xy 179.07 74.93) (xy 179.07 34.29)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 67ab379f-4323-47a8-943e-90137f9e1178)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 179.07 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cbde3bb-b1a3-4ac0-a6be-9d802c8a9779")
+		(property "Netclass" "DDR0_ADDR"
+			(at 179.7685 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -72.39 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -21142,7 +21199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:BGA-347_L14.0-W14.0-R21-C21-P0.65-TL"
 			(at 53.34 59.69 0)
 			(effects
 				(font
