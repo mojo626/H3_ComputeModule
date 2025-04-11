@@ -597,6 +597,9 @@
       "DDR_A14": [
         "DDR0_ADDR"
       ],
+      "DDR_A15": [
+        "DDR0_ADDR"
+      ],
       "DDR_A2": [
         "DDR0_ADDR"
       ],

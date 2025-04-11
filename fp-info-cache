@@ -1,4 +1,4 @@
-24838683208600352
+24845660632141343
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99582,6 +99582,13 @@ FBGA-96_L13.5-W7.5-R16-C6-P0.80-TL
 96
 96
 easyeda2kicad
+FBGA-96_L14.0-W8.0-R16-C6-P0.80-TL
+
+
+0
+96
+96
+easyeda2kicad
 FBGA-153_L11.0-W10.0-P0.50_KLM4G1FETE-B041
 
 
@@ -99931,3 +99938,24 @@ VSON-10_L3.0-W3.0-P0.50-TL-EP_TPS61230DRCR
 0
 11
 11
+footprints
+FBGA96_MRN
+
+MT41K512M16VRP-107 IT:P 
+0
+96
+96
+footprints
+FBGA96_MRN-L
+
+MT41K512M16VRP-107 IT:P 
+0
+96
+96
+footprints
+FBGA96_MRN-M
+
+MT41K512M16VRP-107 IT:P 
+0
+96
+96
