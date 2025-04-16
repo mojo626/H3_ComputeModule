@@ -34270,7 +34270,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "083a70ae-94d3-4190-9f98-82642f8ed0b6")
 		(property "Reference" "#PWR035"
 			(at 506.73 160.02 0)
