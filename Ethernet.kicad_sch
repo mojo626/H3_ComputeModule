@@ -10033,6 +10033,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 114.3) (xy 199.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f017ca-fed3-49d3-a3d5-70b672877de4")
+	)
+	(wire
+		(pts
 			(xy 50.8 132.08) (xy 50.8 134.62)
 		)
 		(stroke
@@ -10570,6 +10580,16 @@
 			(justify right bottom)
 		)
 		(uuid "8a6fd123-89d1-466b-af2a-3ad61033e9e1")
+	)
+	(label "DVDD25"
+		(at 199.39 115.57 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97b38040-68e2-43d5-9f7f-8849ea347588")
 	)
 	(label "AVDD10"
 		(at 175.26 88.9 180)
