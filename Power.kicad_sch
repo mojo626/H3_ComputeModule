@@ -25793,12 +25793,6 @@
 		(uuid "d8ba6554-9077-4151-a5ef-cb00f2673eee")
 	)
 	(junction
-		(at 441.96 303.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d91105b0-7f5a-4ddf-8af9-e8542ecc9d02")
-	)
-	(junction
 		(at 506.73 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25947,12 +25941,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e36781-37b8-40a3-a778-f08c3c762ff5")
-	)
-	(junction
-		(at 441.96 290.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f323d7eb-4f43-4917-b185-688fff876006")
 	)
 	(junction
 		(at 279.4 280.67)
@@ -26462,16 +26450,6 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 293.37) (xy 448.31 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fc63d1-9d22-4d6b-b28c-327f04002fdf")
-	)
-	(wire
-		(pts
 			(xy 279.4 280.67) (xy 284.48 280.67)
 		)
 		(stroke
@@ -26972,16 +26950,6 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 303.53) (xy 441.96 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2699b9ab-048c-43c1-9172-a9f184175a1f")
-	)
-	(wire
-		(pts
 			(xy 298.45 88.9) (xy 298.45 93.98)
 		)
 		(stroke
@@ -27339,16 +27307,6 @@
 			(type default)
 		)
 		(uuid "33edcc75-a51f-4633-9a65-ac54eb99055b")
-	)
-	(wire
-		(pts
-			(xy 448.31 290.83) (xy 441.96 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d8659d-6e41-4e79-ad2e-af4b1476ed18")
 	)
 	(wire
 		(pts
@@ -31659,16 +31617,6 @@
 			(type default)
 		)
 		(uuid "e7142bc6-0b26-42e0-b2db-59aaa0c0105b")
-	)
-	(wire
-		(pts
-			(xy 448.31 300.99) (xy 448.31 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e787f7da-d30c-4396-9bc5-009dbc4f0ac6")
 	)
 	(wire
 		(pts
@@ -45586,75 +45534,6 @@
 			(project "H3_SBC"
 				(path "/2511caf5-b791-49bc-bcf7-734707cf883b/83d14ca4-74e6-4527-889a-72c0efdaf06d"
 					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 448.31 297.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db285dc5-6707-4774-9dda-de5d99eef0af")
-		(property "Reference" "C72"
-			(at 449.072 294.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 449.072 299.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 449.2752 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 448.31 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 448.31 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea85ed74-e841-4533-941c-48c18d81941d")
-		)
-		(pin "2"
-			(uuid "37a93b8d-5317-474e-bf8d-7dfac49129f5")
-		)
-		(instances
-			(project "H3_SBC"
-				(path "/2511caf5-b791-49bc-bcf7-734707cf883b/83d14ca4-74e6-4527-889a-72c0efdaf06d"
-					(reference "C72")
 					(unit 1)
 				)
 			)

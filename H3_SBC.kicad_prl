@@ -1,15 +1,15 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 8,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [
       "DDR0_ADDR",
       "DDR0_DQH",
       "DDR0_DQL"
     ],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
